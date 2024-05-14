@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: px;
+}
+
+body{
+    background-color: rgba(212, 199, 182, 0.747);
+    padding-top: 100px;
+}
+
+h1{
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 200px;
+}
+
+#nome-usuario{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid;
+    cursor: pointer;
+}
+
+#telefone-usuario{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+form button{
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border:2px solid;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: background-color 0.8s ease;
+}
+
+form button:hover{
+    background-color: seagreen;
+}
+
+table th{
+    font-size: 24px;
+    padding: 16px;
+    border-bottom: 2px solid ;
+    border-spacing: 0;
+    width: 900px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    border-spacing: 0;
+    width: 900px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+table td{
+    padding: 16px;
+    text-align: center;
+}
